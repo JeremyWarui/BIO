@@ -1,0 +1,144 @@
+/*********************BODY********************************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100%;
+  color:#40514E;
+}
+
+/**************************H1*****************************/
+h1 {
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
+  font-size: 5.125rem;
+  color: #014892;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  color: #11999E;
+}
+
+.footer-link {
+  color: #11999E;
+  text-decoration: none;
+}
+
+a:hover {
+  color:white;
+}
+
+.subtitle-normal {
+  font-weight: normal;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #66BFBF;
+  border-width: 5px;
+  width: 5%;
+}
+
+/******************containers******************/
+.top-container {
+  background-color: #d4f3ef;
+  position: relative;
+  padding-top: 150px;
+}
+
+.profile {
+  width:50%;
+  margin: 3% auto 3% auto;
+}
+
+.skills {
+  width: 50%;
+  margin: 3% auto 5% auto;
+}
+
+.skill-row1 {
+  margin-top:50px;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row2 {
+  margin-top: 50px;
+  text-align: left;
+  line-height: 2;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 40px;
+  color: #11999E;
+  word-spacing: 2rem;
+}
+
+.copyright {
+  color: #EAF6F6;
+  word-spacing: normal;
+  padding:30px 0 10px;
+}
+
+.contact-me {
+  width:50%;
+  line-height: 2;
+  margin:auto auto 5% auto;
+}
+
+button {
+  border: solid white;
+  border-radius: 10px;
+  padding: 10px 15px;
+  color: white;
+  background-color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+}
+
+.button {
+  padding:40px;
+}
+
+/*********************images********************************/
+.top-cloud {
+  position: absolute;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.myphoto {
+  border-radius: 500px;
+  height: 250px;
+  width: 300px;
+}
+
+.computer {
+  border-radius: 200px;
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 40px;
+}
+
+.chillies {
+  width: 25%;
+  height: 25%;
+  float: right;
+  margin: 20px auto 40px 40px;
+}
